@@ -25,7 +25,7 @@ $ cd yourAwesomeApp
 Then ditch the existing .git history and initialize a new one.
 
 ``` bash
-rm -rm .git
+rm -rf .git
 git init
 ```
 
