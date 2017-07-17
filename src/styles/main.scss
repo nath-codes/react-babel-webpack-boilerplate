@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+// import normalize.scss from node_modules
+@import '~normalize.scss/normalize.scss';
+
+// base
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/helpers';
+@import 'base/mixins';
+@import 'base/typography';
+@import 'base/variables';
+
+// layout
+@import 'layout/container';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+
+// state
+@import 'state/state';
